@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;	
+}
+
+body{
+	background-image: url(../img/DBWY.png);
+	background-image: width(700);
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	color: #FFF;	
+}
+
+#wrapper{
+	display: block;
+	width: 900px;
+	overflow: auto;
+	margin: auto auto 0 auto;	
+}
+
+#wrapper #header{
+	background-color: rgba(0, 0, 0, 0.5);	
+	float: left;
+	clear: none;
+	height: 386px;
+	width: 800px;
+	font-size: 35px;
+	text-shadow: 2px 2px #00729e;
+	text-align: center;
+	display: inline-block;
+	line-height: 200px;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+#wrapper #menu{
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	clear: none;
+	width: 200px;
+	margin-bottom: -2000px;
+	padding-bottom: 2000px;
+	overflow: hidden;	
+}
+
+#wrapper #content{
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	clear: none;
+	width: 700px;
+	margin-bottom: -2000px;
+	padding-bottom: 2000px;
+	overflow: hidden;	
+}
+
+#wrapper #footer{
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	clear: none;
+	font-size: 10px;
+	text-align: center;
+	height: 20px;
+	width: 900px;
+	text-shadow: 2px 2px green;
+}
+
+
+#nav_wrap{
+	width: 190px;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.5);	
+}
+
+#navigation{
+	font-size: 0.75em;
+	width: 190px;	
+}
+
+#navigation ul {
+	margin: 0px;
+	padding: 0px;	
+}
+
+#navigation li{
+	list-style: none;	
+}
+
+ul.top-level{
+	background: green;	
+}
+
+ul.top-level li {
+	border-bottom: #fff solid;
+	border-width: 1px;	
+	text-align: center;
+}
+
+#navigation a{
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 10px;
+	text-decoration: none;
+	width: 100%;	
+	text-align: center;
+}
+
+#navigation a:hover{
+	text-decration: none;	
+}
+
+#navigation li:hover{
+	background: black;
+	position: relative;
+}
+
+ul.sub-level{
+	display: none;	
+}
+
+ul.student-level{
+	display: none;	
+}
+
+li:hover .sub-level{
+	background: green;
+	display: block;	
+}
+
+li:hover .student-level{
+	background: green;
+	display: block;	
+}
+
+#page_header{
+	width: 500px;
+	height: 100px;
+}
+
+#page_content{
+	width: 500px;
+	height: 100px;
+}
+
+#content_right{
+	float: right;
+	margin-right: 100px
+}
+
+sao_table, tr,td,th{
+	background-color: black;
+	border: 1px solid green;
+    border-collapse: collapse;
+    
+}
+
+a{
+	color: orange;
+}
